@@ -12,7 +12,7 @@ A Support Vector Regression (SVR) model with a Radial Basis Function (RBF) kerne
 
 ## Results
 
-The SVR model with an RBF kernel achieved a score of {{sv.score(X_test, y_test):.2f}} on the test set.
+The SVR model with an RBF kernel achieved a score of 0.5131948460514875 on the test set.
 
 The scatter plot of Actual vs. Predicted Rings shows that the model is able to capture some of the variance in the data, but there is still a significant spread in the predictions, particularly for higher numbers of rings. This suggests that the model's ability to predict the exact number of rings is limited.
 
